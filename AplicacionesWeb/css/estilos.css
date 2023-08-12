@@ -1,0 +1,27 @@
+.img-grow{
+    transition: transform 0.3s;
+  }
+  .img-grow:hover{
+    transform: scale(1.05);
+  }
+  *{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("/imagenes/fondo.webp");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .separador{
+    height: 200px;
+    width: 100%;
+  }
